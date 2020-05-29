@@ -1,0 +1,72 @@
+import Vue from 'vue'
+
+import {
+    Button,
+    NavBar,
+    Tabbar,
+    TabbarItem,
+    Swipe,
+    SwipeItem,
+    Toast,
+    Sidebar,
+    SidebarItem,
+    TreeSelect,
+    Row,
+    Col,
+    Sticky,
+    PullRefresh,
+    List,
+    Card,
+    Icon,
+    Search,
+    Cell,
+    CellGroup,
+    Tag,
+    ImagePreview,
+    Tab,
+    Tabs,
+    GoodsAction,
+    GoodsActionIcon,
+    GoodsActionButton,
+    SwipeCell,
+    Stepper,
+    Checkbox,
+    SubmitBar,
+    AddressEdit,
+    AddressList
+} from 'vant'
+
+Vue
+    .use(Button)
+    .use(NavBar)
+    .use(Tabbar)
+    .use(TabbarItem)
+    .use(Swipe)
+    .use(SwipeItem)
+    .use(Sidebar)
+    .use(SidebarItem)
+    .use(TreeSelect)
+    .use(Row)
+    .use(Col)
+    .use(Sticky)
+    .use(PullRefresh)
+    .use(List)
+    .use(Card)
+    .use(Icon)
+    .use(Search)
+    .use(Cell)
+    .use(CellGroup)
+    .use(Tag)
+    .use(Tab)
+    .use(Tabs)
+    .use(GoodsAction)
+    .use(GoodsActionIcon)
+    .use(GoodsActionButton)
+    .use(SwipeCell)
+    .use(Stepper)
+    .use(Checkbox)
+    .use(SubmitBar)
+    .use(AddressEdit)
+    .use(AddressList)
+    .use(Toast)
+Vue.prototype.ImagePreview = ImagePreview

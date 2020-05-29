@@ -1,0 +1,11 @@
+.van-nav-bar {
+    background-color: #d81e06;
+}
+.van-nav-bar .van-nav-bar__title,
+.left_arrow span,
+.van-nav-bar .van-icon{
+    color:#fff
+}
+*::-webkit-scrollbar {
+    display: none !important;
+}
